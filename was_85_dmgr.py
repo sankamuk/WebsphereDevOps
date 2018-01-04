@@ -1,6 +1,7 @@
 #================================================================================================================================
 # SCRIPT : This script is the main script for configuration for Websphere Cell. 
-#          Part of WASDEV setup.
+#          * The mother hosting Cell will be managed and configured using this script.
+#          
 # USAGE  : wsadmin -lang jython was_85_dmgr.py [CONFIG FILE] [OPTIONAL: LOG FILE]
 #          Example: ./wsadmin.sh -lang jython -f was_85_dmgr.py /DC/WAAS2.0/dmgr.conf 
 # AUTHOR : Sankar Mukherjee
