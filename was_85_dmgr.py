@@ -3,7 +3,7 @@
 #          Part of WASDEV setup.
 # USAGE  : wsadmin -lang jython was_85_dmgr.py [CONFIG FILE] [OPTIONAL: LOG FILE]
 #          Example: ./wsadmin.sh -lang jython -f was_85_dmgr.py /DC/WAAS2.0/dmgr.conf 
-# AUTHOR : Middleware Engineering
+# AUTHOR : Sankar Mukherjee
 # DATED  : 01 January, 2015
 # VERSION: 1.0
 #================================================================================================================================
