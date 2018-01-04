@@ -1,6 +1,9 @@
 #================================================================================================================================
 # SCRIPT : This script is the main script for property file based Websphere Application Server enviornment creation.
-#          Part of WASDEV setup.
+#          * It can be used to build and update a hosting infrastructure for a single application in a WAS ND Cell.
+#          * It consists of App Cluster where the application will be deployed and its all dependend components.
+#          * Thus your WAS Cell(PaaS) should consists of set of independent deployable application components maintained using
+#            its own property file which will be input to this perticular script.
 # USAGE  : wsadmin -lang jython was_85_admin.py [country name].[application name].[environment name]
 #          Example: ./wsadmin.sh -lang jython -f was_85_admin.py "ind.test.dev"
 # AUTHOR : Sankar Mukherjee
