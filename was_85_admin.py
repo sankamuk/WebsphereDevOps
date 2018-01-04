@@ -3,7 +3,7 @@
 #          Part of WASDEV setup.
 # USAGE  : wsadmin -lang jython was_85_admin.py [country name].[application name].[environment name]
 #          Example: ./wsadmin.sh -lang jython -f was_85_admin.py "ind.test.dev"
-# AUTHOR : Middleware Engineering
+# AUTHOR : Sankar Mukherjee
 # DATED  : 01 January, 2015
 # VERSION: 1.0
 #================================================================================================================================
